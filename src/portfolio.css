@@ -1,11 +1,36 @@
-body {
-  text-align: center;
+:root {
+  --heading-font-family: 'Ubuntu', sans-serif;
+  --default-font-family: 'Poppins', sans-serif;
+  --primary-color: rgb(220, 220, 220);
+  --secondary-color: rgb(12, 85, 141);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 96px;
 }
 
-p {
-font-family: 'Poppins', sans-serif;
+.hero {
+  color: var(--primary-color);
+  text-align: center;
+  background: radial-gradient(263px at 100.2% 3%, rgb(12, 85, 141) 31.1%, rgb(205, 181, 93) 36.4%, rgb(244, 102, 90) 50.9%, rgb(199, 206, 187) 60.7%, rgb(249, 140, 69) 72.5%, rgb(12, 73, 116) 72.6%);
+  padding: 100px 0;
+}
+
+.hero h2{
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+
+.btn-branding{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin-top: 30px;
+}
+
+.btn-branding:hover {
+  background-color: rgb(244, 102, 90);
 }
