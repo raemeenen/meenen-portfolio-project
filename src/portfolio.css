@@ -13,6 +13,19 @@ h1 {
   font-size: 96px;
 }
 
+h3 {
+  text-align: center;
+  font-size: 48px;
+  margin: 50px 0 30px;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
 .hero {
   color: var(--primary-color);
   text-align: center;
@@ -33,4 +46,58 @@ h1 {
 
 .btn-branding:hover {
   background-color: rgb(244, 102, 90);
+}
+
+.img-rachel {
+  width: 300px;
+  float: right;
+  margin: 0 30px;
+}
+
+.introduction {
+  margin: 25px 60px 0px 30px;
+}
+
+.recent-projects {
+  width: 100%;
+}
+
+.recent-project-example {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 30px 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(169, 169, 169);
+  margin: 10px 15px 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 50px;
+  }
+
+  .img-rachel {
+    float: none;
+    justify-content: center;
+  }
+
+  .introduction {
+    text-align: center;
+    margin: 5px;
+  }
+    
+  
+
 }
