@@ -58,10 +58,6 @@ p {
   margin: 25px 60px 0px 30px;
 }
 
-.recent-projects {
-  width: 100%;
-}
-
 .recent-project-example {
   text-align: center;
   background-color: var(--primary-color);
@@ -80,10 +76,6 @@ p {
     font-size: 30px;
   }
 
-  p {
-    font-size: 12px;
-  }
-
   .hero {
     padding: 50px;
   }
@@ -91,13 +83,17 @@ p {
   .img-rachel {
     float: none;
     justify-content: center;
+    width: 240px;
   }
 
   .introduction {
     text-align: center;
     margin: 5px;
+    font-size: 12px;
   }
     
-  
-
+  .recent-project-example {
+    display: block;
+    margin: 10px 10px;
+  }
 }
