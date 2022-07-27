@@ -67,13 +67,14 @@ p {
   margin: 10px 15px 30px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 48px;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 24px;
+    margin: 10px;
   }
 
   .hero {
@@ -81,15 +82,16 @@ p {
   }
 
   .img-rachel {
-    float: none;
-    justify-content: center;
-    width: 240px;
+    display: none;
   }
 
   .introduction {
     text-align: center;
     margin: 5px;
-    font-size: 12px;
+  }
+
+  .introduction p{
+    font-size: 14px;
   }
     
   .recent-project-example {
