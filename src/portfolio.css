@@ -42,10 +42,19 @@ p {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   margin-top: 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.recent-project-example .btn-branding {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+  margin-top: 0;
 }
 
 .btn-branding:hover {
   background-color: rgb(244, 102, 90);
+  
 }
 
 .img-rachel {
@@ -67,9 +76,12 @@ p {
   margin: 10px 15px 30px;
 }
 
+
+
 @media (max-width: 768px) {
   h1 {
     font-size: 48px;
+    text-shadow: 1px 1px 1px rgb(12, 85, 141);
   }
 
   h3 {
