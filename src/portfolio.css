@@ -13,13 +13,13 @@ h1 {
   font-size: 96px;
 }
 
-.about-section h1 {
+.heading h1 {
   font-size: 64px;
   color: var(--secondary-color);
   margin-top: 10px;
 }
 
-.about-section h2 {
+.heading h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: bold;
@@ -37,6 +37,10 @@ p {
   font-family: var(--default-font-family);
   font-size: 20px;
   line-height: 1.5;
+}
+
+img {
+  max-height: 400px;
 }
 
 .hero {
@@ -59,7 +63,7 @@ p {
   border: 1px solid var(--secondary-color);
 }
 
-.about-section .btn-branding{
+.heading .btn-branding{
   margin-top: 10px;
 }
 
@@ -114,9 +118,9 @@ p {
     padding: 50px;
   }
   
-  .about-section{
+  .heading{
     text-align: center;
-    justify-content: center;
+    justify-f: center;
   }
   
   .img-rachel {
