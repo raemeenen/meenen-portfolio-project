@@ -103,6 +103,11 @@ img {
   margin: 10px 15px 30px;
 }
 
+.contact-icon {
+  color: var(--secondary-color);
+  font-size: 96px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 48px;
