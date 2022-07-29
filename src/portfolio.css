@@ -103,9 +103,21 @@ img {
   margin: 10px 15px 30px;
 }
 
-.contact-icon {
+.contact-icon i{
   color: var(--secondary-color);
   font-size: 96px;
+}
+
+.contact-link {
+  margin: 20px 0;
+  color: #000;
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
