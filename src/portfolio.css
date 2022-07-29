@@ -46,8 +46,6 @@ img {
   max-height: 400px;
 }
 
-.contact-icon a {text-decoration: none;}
-
 .bg-light{
   background-color: var(--primary-color)!important;
 }
@@ -72,7 +70,7 @@ img {
   text-align: center;
   background: radial-gradient(263px at 100.2% 3%, rgb(12, 85, 141) 31.1%, rgb(205, 181, 93) 36.4%, rgb(244, 102, 90) 50.9%, rgb(199, 206, 187) 60.7%, rgb(249, 140, 69) 72.5%, rgb(12, 73, 116) 72.6%);
   padding: 100px 0;
-  margin: 44px 0;
+  margin: 44px 0 10px 0;
 }
 
 .hero h2{
@@ -115,10 +113,6 @@ img {
   width: 360px;
 }
 
-.introduction {
-  margin: 25px 0px;
-}
-
 .recent-project-example {
   text-align: center;
   background-color: var(--primary-color);
@@ -131,6 +125,10 @@ img {
 .contact-icon i{
   color: var(--secondary-color);
   font-size: 96px;
+}
+
+.contact-icon a {
+  text-decoration: none;
 }
 
 .contact-link {
@@ -161,7 +159,6 @@ img {
   
   .heading{
     text-align: center;
-    justify-f: center;
   }
   
   .img-rachel {
