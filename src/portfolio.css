@@ -13,10 +13,13 @@ h1 {
   font-size: 96px;
 }
 
+.heading {
+  margin: 100px 0;
+}
+
 .heading h1 {
   font-size: 64px;
   color: var(--secondary-color);
-  margin-top: 10px;
 }
 
 .heading h2 {
@@ -43,11 +46,33 @@ img {
   max-height: 400px;
 }
 
+.contact-icon a {text-decoration: none;}
+
+.bg-light{
+  background-color: var(--primary-color)!important;
+}
+
+.nav-name {
+  margin: 5px 10px 5px 30px;
+  padding: 7px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgb(205, 181, 93)
+}
+
+.active {
+  color: var(--secondary-color)!important;
+  font-weight: bold;
+}
+
 .hero {
   color: var(--primary-color);
   text-align: center;
   background: radial-gradient(263px at 100.2% 3%, rgb(12, 85, 141) 31.1%, rgb(205, 181, 93) 36.4%, rgb(244, 102, 90) 50.9%, rgb(199, 206, 187) 60.7%, rgb(249, 140, 69) 72.5%, rgb(12, 73, 116) 72.6%);
   padding: 100px 0;
+  margin: 44px 0;
 }
 
 .hero h2{
@@ -111,7 +136,6 @@ img {
 .contact-link {
   margin: 20px 0;
   color: #000;
-  text-decoration: none;
   font-family: var(--default-font-family);
   font-size: 16px;
 }
