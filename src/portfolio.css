@@ -13,6 +13,10 @@ h1 {
   font-size: 96px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .heading {
   margin: 100px 0;
 }
@@ -44,6 +48,11 @@ p {
 
 img {
   max-height: 400px;
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0 30px 0;
 }
 
 .bg-light{
@@ -127,10 +136,6 @@ img {
   font-size: 96px;
 }
 
-.contact-icon a {
-  text-decoration: none;
-}
-
 .contact-link {
   margin: 20px 0;
   color: #000;
@@ -138,8 +143,34 @@ img {
   font-size: 16px;
 }
 
-.contact-link:hover {
+.email-link {
+  color: var(--secondary-color);
+}
+
+.email-link:hover, .contact-link:hover {
   text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.social-links i {
+  color: var(--secondary-color);
+  font-size: 48px;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.social-links i:hover, .email-link:hover {
+  color: rgb(244, 102, 90);
+}
+
+.signature {
+  font-family: var(--default-font-family);
 }
 
 @media (max-width: 768px) {
