@@ -122,6 +122,10 @@ footer {
   width: 360px;
 }
 
+.skill-icon {
+ height: 36px;
+}
+
 .recent-project-example {
   text-align: center;
   background-color: var(--primary-color);
