@@ -17,22 +17,6 @@ a {
   text-decoration: none;
 }
 
-.heading {
-  margin: 100px 0;
-}
-
-.heading h1 {
-  font-size: 64px;
-  color: var(--secondary-color);
-}
-
-.heading h2 {
-  font-family: var(--default-font-family);
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 h3 {
   text-align: center;
   font-size: 48px;
@@ -47,7 +31,7 @@ p {
 }
 
 img {
-  max-height: 400px;
+  max-height: 300px;
 }
 
 footer {
@@ -67,6 +51,10 @@ footer {
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 3px 3px 3px rgb(205, 181, 93)
+}
+
+.nav-item {
+  margin-left: 10px;
 }
 
 .active {
@@ -122,8 +110,28 @@ footer {
   width: 360px;
 }
 
+.heading {
+  margin: 100px 0;
+}
+
+.heading h1 {
+  font-size: 64px;
+  color: var(--secondary-color);
+}
+
+.heading h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .skill-icon {
  height: 36px;
+}
+
+.skill {
+  padding: 5px;
 }
 
 .recent-project-example {
@@ -133,6 +141,11 @@ footer {
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(169, 169, 169);
   margin: 10px 15px 30px;
+}
+
+.project-description {
+  margin: 20px 0;
+  text-align: left;
 }
 
 .contact-icon i{
@@ -190,6 +203,14 @@ footer {
     margin: 10px;
   }
 
+  p {
+    font-size: 14px;
+  }
+
+  .heading h1 {
+    font-size: 48px;
+  }
+
   .hero {
     padding: 50px;
   }
@@ -207,12 +228,21 @@ footer {
     margin: 5px;
   }
 
-  .introduction p{
-    font-size: 14px;
-  }
-    
   .recent-project-example {
     display: block;
     margin: 10px 10px;
+  }
+
+  .project-description {
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .email-link {
+    font-size: 16px;
+  }
+
+  .signature {
+    font-size: 12px;
   }
 }
